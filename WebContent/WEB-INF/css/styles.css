@@ -88,8 +88,9 @@
     background-color: #00cccc !important;
     color: white !important;
     font-size: 28px;
-    margin-top: 50px;
-    margin-bottom: 111px;
+    margin-top: 25px;
+    opacity: 1 !important;
+
 }
 
 .mainImg {
@@ -98,9 +99,7 @@
 
 /*How it works container properties*/
 
-.howItWorks {
-    /* margin-top: 200px;*/
-}
+.howItWorks {}
 
 
 
@@ -134,9 +133,9 @@
 }
 
 p.narrow {
-    width: 60%;
-    margin: 20px auto;
+
     font-size: 20px;
+    font-weight: 600;
     color: #483d8b;
 }
 
@@ -287,9 +286,12 @@ li.active span.round-tabs.five {
 
 .tab-content .head {
     font-family: 'Roboto Condensed', sans-serif;
-    
+    font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 10px;
+    color: #483d8b;
+
+
 }
 
 .btn-outline-rounded {
@@ -300,11 +302,7 @@ li.active span.round-tabs.five {
 }
 
 
-*/
-
-
-
-@media( max-width: 585px) {
+*/ @media( max-width: 585px) {
 
     .board {
         width: 90%;
@@ -336,4 +334,23 @@ li.active span.round-tabs.five {
     }
 }
 
-/*Sets the properties of the game*/
+
+/*Properties that sets the text-pane (jumbotron) to almost transparent*/
+
+.text-pane {
+    margin-bottom: 30px;
+    opacity: 0.9;
+    color: darkslateblue;
+    background: white;
+}
+
+.btn-lg {}
+
+.getStarted {
+    margin-bottom: 116px;
+}
+
+.createAccount {
+    z-index: 1;
+    opacity: 1!important;
+}
