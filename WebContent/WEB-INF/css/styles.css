@@ -176,34 +176,31 @@ span.round-tabs {
 }
 
 span.round-tabs.one {
-    background: #00cccc !important;
-    border: 2px #00cccc;
-    color: white;
+    color: #483d8b;
+    border: 2px solid #483d8b;
 }
 
 li.active span.round-tabs.one {
-    background: darkslateblue !important;
-    border: 2px darkslateblue;
-    color: white;
+    background: #fff !important;
+    border: 2px solid #00cccc;
+    color: #00cccc;
 }
 
 span.round-tabs.two {
-    background: #00cccc !important;
-    border: 2px #00cccc;
-    color: white;
+    color: #483d8b;
+    border: 2px solid #483d8b;
 }
 
 li.active span.round-tabs.two {
-    background: darkslateblue !important;
-    border: 2px darkslateblue;
-    color: white;
+    background: #fff !important;
+    border: 2px solid #00cccc;
+    color: #00cccc;
 
 }
 
 span.round-tabs.three {
-    background: #00cccc !important;
-    border: 2px #00cccc;
-    color: white;
+    color: #483d8b;
+    border: 2px solid #483d8b;
 }
 
 li.active span.round-tabs.three {
@@ -213,27 +210,25 @@ li.active span.round-tabs.three {
 }
 
 span.round-tabs.four {
-    background: #00cccc !important;
-    border: 2px #00cccc;
-    color: white;
+    color: #483d8b;
+    border: 2px solid #483d8b;
 }
 
 li.active span.round-tabs.four {
-    background: darkslateblue !important;
-    border: 2px darkslateblue;
-    color: white;
+    background: #fff !important;
+    border: 2px solid #00cccc;
+    color: #00cccc;
 }
 
 span.round-tabs.five {
-    background: #00cccc !important;
-    border: 2px #00cccc;
-    color: white;
+    color: #483d8b;
+    border: 2px solid #483d8b;
 }
 
 li.active span.round-tabs.five {
-    background: darkslateblue !important;
-    border: 2px darkslateblue;
-    color: white;
+    background: #fff !important;
+    border: 2px solid #00cccc;
+    color: #00cccc;
 }
 
 .nav-tabs > li.active > a span.round-tabs {
