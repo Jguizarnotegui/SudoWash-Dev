@@ -359,3 +359,71 @@ li.active span.round-tabs.five {
     z-index: 1;
     opacity: 1!important;
 }
+/*formRequest.html & StandBy.html Styling*/
+/*___________________________________________________*/
+.titleQuote{
+	padding-top: 140px;
+}
+.formRequestBody{
+	padding-top: 80px;
+}
+
+/*Divider line for Form*/
+.h-divider{
+	margin-top:5px;
+	margin-bottom:5px;
+	height:1px;
+	width:100%;
+	border-top:1px solid gray;
+}
+/*Center Circle Shapes*/
+#circle1 {
+    width: 120px;
+    height: 120px;
+    background: #E87510;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+	box-shadow: 10px 10px grey;
+}
+
+#circle2 {
+    width: 120px;
+    height: 120px;
+    background: black;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+	box-shadow: 10px 10px grey;
+}
+
+#circle3 {
+    width: 120px;
+    height: 120px;
+    background: white;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+	box-shadow: 10px 10px grey;
+}
+
+.centerShape{
+	margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.standBy{
+	text-align: center;
+}
+
+#map {
+    height: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*-----------------------------------------------------*/
+/*End of formRequest.html & StandBy.html Styling*/

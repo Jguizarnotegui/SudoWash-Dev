@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SudoWash Home</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <script src="js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/780a887869.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="https://cdn.rawgit.com/konvajs/konva/1.7.3/konva.min.js"></script>
+
+
+</head>
+
+<body>
+	<div class="container-fluid mainContainer">
+			<!--Nabvar starts here-->
+			<div class="container">
+				<nav class="navbar navbar-default navbar-left">
+
+					<!--Hamburger menu for navbar links-->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+               
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+						<!-- Logo  -->
+						<div class="navbar-header">
+							<a href="SudoWashIndex.html" alt="SudoWash" class="navbar-brand navbar-left visible-xl-block visible-lg-"><img   src="images/Sudo_Wash_Logo.png"  height="60px" > </a>
+						</div>
+
+
+							<div class="collapse navbar-collapse" id="collapsemenu">
+
+							<!-- Menu Items -->
+							<div>
+								<ul class="nav navbar-nav">
+									<li><a href="SudoWashIndex.html">Home</a></li>
+									<li><a href="howItWorks.html">How It Works</a></li>
+									<li><a href="#">Become A SudoWasher</a></li>
+									<li><a href="#">Our Mission</a></li>
+								</ul>
+
+
+
+								<!--Link this to a login.jsp page to process login of new users-->
+								<a href="login.jsp" class="btn btn-default navbar-btn navbar-right"><span class="glyphicon glyphicon-log-in"></span> sign in</a>
+							</div>
+
+				</nav>
+				<div class="titleQuote"> 
+					<div class="row">
+							<div class="text-center">
+								<h1 class="mainQuote">Pack Your Laundry!</h1>
+								<h3>($10.00 per bag)</h3>
+							</div>
+					</div>
+				</div>
+				<div class="formRequestBody">
+					<div class="jumbotron text-pane">
+						<div class="row">
+							<div class="col-xs-4">
+								<div class="text-center">
+									<form>
+										<div id="circle1" class="centerShape"></div>
+											<h2>Colorfull Clothes</h2>
+												<div class="form-group">
+													<label for="sel1">Select Quantity of Bags:</label>
+													<select class="form-control" id="sel1">
+														<option>1</option>
+														<option>2</option>
+														<option>3</option>
+														<option>4</option>
+														<option>5</option>
+														<option>6</option>
+													</select>
+												</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="text-center">
+									<form>
+										<div id="circle2" class="centerShape"></div>
+											<h2>Black Clothes</h2>
+												<div class="form-group">
+													<label for="sel1">Select Quantity of Bags:</label>
+													<select class="form-control" id="sel1">
+														<option>1</option>
+														<option>2</option>
+														<option>3</option>
+														<option>4</option>
+														<option>5</option>
+														<option>6</option>
+													</select>
+												</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="text-center">
+									<form>
+										<div id="circle3" class="centerShape"></div>
+											<h2>White Clothes</h2>
+												<div class="form-group">
+													<label for="sel1">Select Quantity of Bags:</label>
+													<select class="form-control" id="sel1">
+														<option>1</option>
+														<option>2</option>
+														<option>3</option>
+														<option>4</option>
+														<option>5</option>
+														<option>6</option>
+													</select>
+												</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="jumbotron text-pane">
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="text-center">
+									<div class="form-group">
+  										<label for="comment">Additional Requests or Comments:</label>
+  										<textarea class="form-control" rows="5" id="comment"></textarea>
+										<div class="text-center">
+											<form>
+												<INPUT TYPE="button" onClick="parent.location='standBy.html'" value="Request SudoWasher" class="btn btn-default btn-round-lg btn-lg getStarted">
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>		
+</body>
+
+</html>
