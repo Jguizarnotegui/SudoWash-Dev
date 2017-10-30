@@ -5,6 +5,8 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
 
 /*setting the navbar properties*/
@@ -358,4 +360,102 @@ li.active span.round-tabs.five {
 .createAccount {
     z-index: 1;
     opacity: 1!important;
+}
+
+
+/*styles for the hub snippet Start here*/
+
+/*  bhoechie tab */
+
+div.bhoechie-tab-container {
+
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 0 !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-clip: padding-box;
+    opacity: 0.9;
+
+    filter: alpha(opacity=200);
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+
+}
+
+div.bhoechie-tab-menu {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+div.bhoechie-tab-menu ul.list-group {
+    margin-bottom: 0;
+    list-style: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #483d8b;
+}
+
+div.bhoechie-tab-menu ul.list-group > a {
+    margin-bottom: 0;
+    text-align: left;
+}
+
+div.bhoechie-tab-menu ul.list-group > a .glyphicon,
+div.bhoechie-tab-menu ul.list-group > a .fa {
+    color: #5A55A3;
+}
+
+div.bhoechie-tab-menu ul.list-group > a:first-child {
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+
+div.bhoechie-tab-menu ul.list-group > a:last-child {
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+
+div.bhoechie-tab-menu ul.list-group > a.active,
+div.bhoechie-tab-menu ul.list-group > a.active .glyphicon,
+div.bhoechie-tab-menu ul.list-group > a.active .fa {
+    background-color: #00cccc;
+    background-image: #5A55A3;
+    color: #ffffff;
+}
+
+div.bhoechie-tab-menu ul.list-group > a.active:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid #5A55A3;
+}
+
+div.bhoechie-tab-content {
+    background-color: #ffffff;
+    /* border: 1px solid #eeeeee; */
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+    display: none;
+}
+
+.list-group-item {
+    font-size: 20px auto;
 }
