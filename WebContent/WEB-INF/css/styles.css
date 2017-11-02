@@ -362,7 +362,7 @@ li.active span.round-tabs.five {
 /*formRequest.html & StandBy.html Styling*/
 /*___________________________________________________*/
 .titleQuote{
-	padding-top: 140px;
+	padding-top: 120px;
 }
 .formRequestBody{
 	padding-top: 80px;
@@ -416,7 +416,7 @@ li.active span.round-tabs.five {
 .standBy{
 	text-align: center;
 }
-
+/*Creating map*/
 #map {
     height: 100%;
 }
