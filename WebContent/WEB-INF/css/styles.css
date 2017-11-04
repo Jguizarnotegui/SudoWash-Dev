@@ -543,3 +543,97 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
 .comments-list .media {
     border-bottom: 1px dotted #ccc;
 }
+
+
+
+/*formRequest.html & StandBy.html Styling*/
+
+/*___________________________________________________*/
+
+.titleQuote {
+    /*padding-top: 120px;*/
+}
+
+.formRequestBody {
+    padding-top: 20px;
+}
+
+/*Divider line for Form*/
+
+.h-divider {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+/*Center Circle Shapes*/
+
+#circle1 {
+    width: 90px;
+    height: 90px;
+    background: #E87510;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    box-shadow: 5px 5px grey;
+}
+
+#circle2 {
+    width: 90px;
+    height: 90px;
+    background: black;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    box-shadow: 5px 5px grey;
+}
+
+#circle3 {
+    width: 90px;
+    height: 90px;
+    background: white;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    box-shadow: 5px 5px grey;
+}
+
+.centerShape {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.standBy {
+    text-align: center;
+}
+
+/*Creating map*/
+
+#map {
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+
+}
+
+/*html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*-----------------------------------------------------*/
+
+/*End of formRequest.html & StandBy.html Styling*/
+
+.mapContainer {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
