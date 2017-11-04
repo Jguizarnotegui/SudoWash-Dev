@@ -1,7 +1,11 @@
 /*setting the properties for the main container*/
+body, html {
+	height: 100%;
+}
 
 .mainContainer {
     background-image: url(../images/14npm61.png);
+	height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,11 +38,10 @@
 
 }
 
-/*.active a {
-    background-color: darkslategray;
-    opacity: 0.8;
-}*/
-
+.link-back {
+	background-color: white;
+}
+>>>>>>> userLogin
 .nav.navbar-nav li a:hover {
     color: #483d8b;
 
@@ -359,6 +362,7 @@ li.active span.round-tabs.five {
     opacity: 1!important;
 }
 
+<<<<<<< HEAD
 
 /*styles for the hub snippet Start here*/
 
@@ -632,3 +636,11 @@ body {
     margin: 0;
     padding: 0;
 }
+=======
+.div-clear{
+	clear: both;
+	/*padding-top: 15px;
+	padding-bottom: 15px;*/
+	color: #00cccc;
+}
+>>>>>>> userLogin
