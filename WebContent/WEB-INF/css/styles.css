@@ -40,7 +40,9 @@ body, html {
     background-color: darkslategray !important;
     opacity: 0.8;
 }
-
+.link-back {
+	background-color: white;
+}
 .nav.navbar-nav li a:hover {
     color: #483d8b;
 
