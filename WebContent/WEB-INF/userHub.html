@@ -55,8 +55,8 @@
                         <ul class="nav navbar-nav">
                             <li><a href="SudoWashIndex.html">Home</a></li>
                             <li><a href="howItWorks.html">How It Works</a></li>
-                            <li><a href="#">Become A SudoWasher</a></li>
-                            <li><a href="#">Our Mission</a></li>
+                            <li><a href="Driver_Sign_Up.html">Become A SudoWasher</a></li>
+                            <li><a href="mission.html">Our Mission</a></li>
                         </ul>
 
 
@@ -220,7 +220,7 @@
                                                     <button type="button" onClick="calculatePrice()">Calculate</button> Calculated Price:$
                                                     <INPUT type="text" id="ExitPrice" size=8>
                                                     <form>
-                                                        <INPUT TYPE="button" onClick="parent.location='standBy.html'" value="Request SudoWasher" class="btn btn-default btn-round-lg btn-lg getStarted">
+                                                        <a href="#sb" TYPE="button" class="btn btn-default btn-round-lg btn-lg getStarted">Request SudoWasher</a>
                                                     </form>
 
                                                 </div>
@@ -240,7 +240,7 @@
 
 
                             <div class="text-center">
-                                <h3 class="mainQuote">Your SudoWasher is on his way!</h3>
+                                <h3  class="mainQuote">Your SudoWasher is on his way!</h3>
                                 <h4 class="mainQuote">Hang Tight</h4>
                                 <p style="color: darkslateblue; font-size: 18px;">
                                     Your order should be accepted by one of our SudoWasher shortly. Once one of our awesome SudoWashers has accepted you will have access to their info, including their ratings. If you are not satified with the ratings of your SudoWasher you may cancel your request, no hard feelings. Otherwise, expect a nofitcation when our SudoWasher is on it's way to pick up your laundry.
@@ -251,12 +251,7 @@
                             <div class="mapContainer">
                                 <div id="map"></div>
                                 <script>
-                                    // Note: This example requires that you consent to location sharing when
-                                    // prompted by your browser. If you see the error "The Geolocation service
-                                    // failed.", it means you probably did not give permission for the browser to
-                                    // locate you.
                                     var map, infoWindow;
-
                                     function initMap() {
                                         map = new google.maps.Map(document.getElementById('map'), {
                                             center: {
