@@ -10,3 +10,52 @@ label {
      color: black;
 
 }
+
+/*setting the navbar properties*/
+
+.navbar-default {
+    
+        border: none;
+        background-color: transparent;
+    }
+    
+    /*setting the text properties in the navbar*/
+    
+    .nav.navbar-nav li a {
+        color: #00cccc;
+        font-size: 20px;
+        padding-top: 25px;
+    
+    }
+    
+    /*Customizes active link and hover link in navbar*/
+    
+    .navbar-nav > .active > a,
+    .navbar-nav > .active > a:focus {
+        color: #00cccc !important;
+    
+    }
+    
+    /*.active a {
+        background-color: darkslategray;
+        opacity: 0.8;
+    }*/
+    
+    .nav.navbar-nav li a:hover {
+        color: #483d8b;
+    
+    }
+    
+    /*Setting main content properties*/
+    
+    .mainContent {
+        object-position: center center;
+    }
+    
+    /*aligning logo to fit in the navbar*/
+    
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 0px;
+        padding-top: 10px;
+    }
