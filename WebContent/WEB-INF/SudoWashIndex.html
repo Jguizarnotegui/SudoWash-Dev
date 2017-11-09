@@ -76,7 +76,37 @@
             <br>
 
         </div>
-        <img src="images/IndexIllustration2.png" height="180px" class="center-block mainImg">
+		<div class="container">
+			<div class="avatar">
+				<img src="images/IndexIllustration2.png" class="ImgDisplayCenter" height="180px"  alt="hoverCar">
+				<style>
+					img.ImgDisplayCenter{
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+					}
+					@keyframes float {
+						0% {
+							transform: translatey(0px);
+						}
+						50% {
+							transform: translatey(-20px);
+						}
+						100% {
+							transform: translatey(0px);
+						}
+					}
+					.avatar {
+						width: 1000px;
+						height: 1000px;
+						overflow: hidden;
+						transform: translatey(0px);
+						animation: float 6s ease-in-out infinite;
+						img { width: 100%; height: auto; }
+					}
+				</style>
+			</div>
+		</div>
     </div>
 
 
