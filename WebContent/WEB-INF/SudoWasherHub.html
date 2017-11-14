@@ -16,10 +16,32 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 
+    <script>
+    function getParameterByName(name) {
+    // if (!url) url = window.location.href;
+    url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+
+    function changeText(whatever){
+
+        var value = getParameterByName(whatever);
+
+       if (value == 'chargers'){
+            document.getElementById("wut").innerHTML="HORY SHITE";
+       }
+    }
+    </script>
+
 
 </head>
 
-<body>
+<body  onload="changeText('tempText')" >
 
     <!--Main container fills an entire desktop browser screen-->
     <div class="container-fluid mainContainer">
@@ -78,7 +100,7 @@
                             <a href="#" class="list-group-item active">
                                 <div class="text-center">
                                     <br>
-                                    <h3> <i class="fa fa-tasks"> AVAILABLE ORDERS</i></h3>
+                                    <h3 id="temp"> fuck<i id="wut" class="fa fa-tasks">HMM?</i></h3>
                                     <br>
                                 </div>
 

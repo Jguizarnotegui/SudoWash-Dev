@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>SudoWasher Hub</title>
+    <title>User Hub</title>
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,37 @@
     <script src="js/scripts.js"></script>
     <script src="https://cdn.rawgit.com/konvajs/konva/1.7.3/konva.min.js"></script>
 
+    <script>
+    var stuff = [];
+    stuff["color"] = "";
+    stuff["black"] = "";
+    stuff["white"] = "";
+    stuff["pickupDate"] = "";
+    stuff["pickupTime"] = "";
+    stuff["dropoffDate"] = "";
+    stuff["dropoffTime"] = "";
 
+    function addInfo(){
+
+        stuff["color"] = "color=" + "2";
+        stuff["black"] = "black=" + "1";
+        stuff["white"] = "white=" + "3";
+
+    }
+
+    function urlChange(){
+        var url = "standBy.html";
+
+        url += "?" + stuff["color"].value;
+
+        document.getElementById("orderSubmission").href = url;
+    }
+
+    function sudoWasher(){
+
+    }
+
+    </script>
 
 
 </head>
@@ -140,7 +170,7 @@
                                                 <h3>Colorfull Clothes</h3>
                                                 <div class="form-group">
                                                     <label for="sel1">Select Quantity of Bags:</label>
-                                                    <select Name="colorItem" onchange="calculatePrice()" class="form-control" id="colorItem">
+                                                    <select Name="colorItem1" onchange="calculatePrice()" class="form-control" id="colorItem">
 														<option value="10">1</option>
 														<option value="20">2</option>
 														<option value="30">3</option>
@@ -218,8 +248,13 @@
                                                     <br>
                                                     <button type="button" onClick="calculatePrice()">Calculate</button> Calculated Price:$
                                                     <INPUT type="text" id="ExitPrice" size=8>
+                                                        
+
+                                                        <script> addInfo();</script>
+
+
                                                     <form>
-                                                        <a href="standBy.html" TYPE="button" class="btn btn-default btn-round-lg btn-lg getStarted">Request SudoWasher</a>
+                                                        <a id ="orderSubmission" onclick="addInfo();" href="javascript:urlChange();" TYPE="button" class="btn btn-default btn-round-lg btn-lg getStarted">Request SudoWasher</a>
                                                     </form>
 
                                                 </div>
