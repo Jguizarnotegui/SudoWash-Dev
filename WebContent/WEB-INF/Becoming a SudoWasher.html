@@ -1,114 +1,103 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
 
-<script>
-    function init() {
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
-                header = document.querySelector("header");
-            if (distanceY > shrinkOn) {
-                classie.add(header,"smaller");
-            } else {
-                if (classie.has(header,"smaller")) {
-                    classie.remove(header,"smaller");
-                }
-            }
-        });
-    }
-    window.onload = init();
-</script>
-</head>
-
-
-
-<body>
-
-<div id="wrapper">
-
-<header>
-
-    <title>Become a Sudo Washer</title>
+    <title>Becoming a SudoWasher</title>
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/Becoming a SudoWasher.css">
+    <link rel="stylesheet" href="css/DriverSignUp.css">
+    
 
-    <script src="js/Becoming a SudoWasher.js"></script>
+</head>
 
+<body>
+        <div class="container-fluid mainContainer">
+        <nav class="navbar navbar-default navbar-left">
+                <div class="container">
+    
+                    <!--Hamburger menu for navbar links-->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+                   
+                <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+    
+                    <!-- Logo  -->
+                    <div class="navbar-header">
+                        <a href="SudoWashIndex.html" alt="SudoWash" class="navbar-brand navbar-left visible-xl-block visible-lg-"><img   src="images/Sudo_Wash_Logo.png"  height="60px" > </a>
+                    </div>
+    
+    
+                    <div class="collapse navbar-collapse" id="collapsemenu">
+    
+                        <!-- Menu Items -->
+                        <div>
+                            <ul class="nav navbar-nav">
+                                <li><a href="SudoWashIndex.html">Home</a></li>
+                                <li><a href="howItWorks.html">How It Works</a></li>
+                                <li><a href="Driver_Sign_Up.html">Become A SudoWasher</a></li>
+                                <li><a href="mission.html">Our Mission</a></li>
+                            </ul>
+    
+    
+    
+                            <!--Link this to a login.jsp page to process login of new users-->
+                            <a href="login.html" class="btn btn-default navbar-btn navbar-right"><span class="glyphicon glyphicon-log-in"></span> sign in</a>
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </nav>
 
-    <div class="container clearfix">
-        <h1 id="logo">
-            Pratik
-        </h1>
-        <nav>
-            <a href="">Lorem</a>
-            <a href="">Ipsum</a>
-            <a href="">Dolor</a>
-        </nav>
-    </div>
-</header><!-- /header -->
+          
+    
+            <!--Navbar ends here-->
 
-<div id="main">
-    <div id="content">
-        <section>
-            <div class="container">
-                <h1>Header Resize On Scroll with Animations</h1>
-                <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-                <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.</p>
-                <p>
-                    <a href="https://www.facebook.com/pratik.chauhan.cp">« Connect With Me | Chauhan PRatik</a><br>
-                    <a href="http://bootsnipp.com/cppratikcp">« Go back to all tutorials?</a>
-                </p>
             </div>
-        </section>
-        <section class="color">
-            <div class="container">
-                <h1>Cupcakes for the people!</h1>
-                <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-                <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.</p>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h1>Chocolate, vanilla, and red velvet</h1>
-                <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-                <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.</p>
-            </div>
-        </section>
-        <section class="color">
-            <div class="container">
-                <h1>Come to me!</h1>
-                <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-                <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.</p>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <h1>Sugar rush, oh my...</h1>
-                <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-                <p>Sugar plum muffin cookie pastry oat cake icing candy canes chocolate. Gummi bears chupa chups fruitcake dessert jelly. Muffin cookie ice cream soufflé pastry lollipop gingerbread sweet. Unerdwear.com bonbon candy marzipan bonbon gummies chocolate cake gummi bears powder. Unerdwear.com tart halvah chocolate cake dragée liquorice. Sugar plum chocolate bar pastry liquorice dragée jelly powder. Jelly tootsie roll applicake caramels. Marzipan candy tootsie roll donut. Gummies ice cream macaroon applicake.</p>
-            </div>
-        </section>
-    </div>
-</div><!-- #main -->
+
+    <div id="mainContainer" class="container" >
+
+            <div id="content">
+                    <section>
+                        <div class="container-fluid">
+                            <h1>SudoWasher driving requirements</h1>
+                            <h3 class="text-muted">How to drive with SudoWash</h3>
+                            <h4>SudoWash is an excellent way to earn extra cash and work whenever you want. Most people are eligible to drive for SudoWash and the following requirements will give you insight on what you need to get started.</h4> 
+                            
+                            <h3>The Minimum requirments</h3>
+                            <ul class="list-group">
+                              <li class="list-group-item">Be at least 21 years old</li>
+                              <li class="list-group-item">Have a valid driver’s license</li>
+                              <li class="list-group-item">Eligible 4-door vehicle</li>
+                            </ul>
+                            
+                            <h3>Required Documents</h3>
+                            <ul class="list-group">
+                              <li class="list-group-item">Proof of vehicle insurance</li>
+                              <li class="list-group-item">Have a valid driver’s license</li>
+                            </ul>
+                            
+                            <h3>Driver Screening</h3>
+                            <h4>You will be required to accept a screening for your driving record and criminal history. It will be done online and will only take a few minutes.</h4>
+                            <ul class="list-group">
+                                    <li class="list-group-item">You will be required to accept a screening for your driving record and criminal history. It will be done online and will only take a few minutes.</li>
+                                  </ul>
+                            
+                        </div>
+                    </section>
+            
+                </div>
 
 
-<footer>
-<div id="info-bar">
-    <div class="container clearfix">
-        <span class="all-tutorials"><a href="http://bootsnipp.com/cppratikcp">← all tutorials</a></span>
-        <span class="back-to-tutorial"><a href="https://www.facebook.com/pratik.chauhan.cp">CHUAHAN PRATIK</a></span>
-    </div>
-</div><!-- /#top-bar -->
-</footer><!-- /footer -->
-
-
-
-</div><!-- /#wrapper -->
-
+       
+    </div><!--Main Container-->
 
 </body>
 

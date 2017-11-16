@@ -10,3 +10,27 @@ label {
      color: black;
 
 }
+
+.nav.navbar-nav li a {
+    color: #00cccc;
+    font-size: 20px;
+    padding-top: 25px;
+
+}
+
+/*Customizes active link and hover link in navbar*/
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus {
+    color: #00cccc !important;
+
+}
+
+.link-back {
+	background-color: white;
+}
+>>>>>>> userLogin
+.nav.navbar-nav li a:hover {
+    color: #483d8b;
+
+}
