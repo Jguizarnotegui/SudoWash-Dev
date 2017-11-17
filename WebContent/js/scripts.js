@@ -63,6 +63,27 @@ $(document).ready(function () {
         }
         $(this).parent().remove();
     });
-
-
 });
+//JS CALCULATE TOTAL PRICE (USERHUB)
+function calculatePrice(getSudoWashForm){
+  //Get selected data  
+  var x = document.getElementById("colorItem");
+  var colors = x.options[x.selectedIndex].value;
+    
+  var y = document.getElementById("blackItem");
+  var blacks = y.options[y.selectedIndex].value;
+    
+  var z = document.getElementById("whiteItem");
+  var whites = z.options[z.selectedIndex].value;
+    
+  //convert data to integers
+  colors = parseInt(colors);
+  blacks = parseInt(blacks);
+  whites = parseInt(whites);
+    
+  //calculate total value  
+  var total = colors+blacks+whites; 
+    
+  //print value to  PicExtPrice 
+  document.getElementById("ExitPrice").value=total;
+}

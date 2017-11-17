@@ -1,11 +1,7 @@
 /*setting the properties for the main container*/
-body, html {
-	height: 100%;
-}
 
 .mainContainer {
     background-image: url(../images/14npm61.png);
-	height: 100%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,10 +34,11 @@ body, html {
 
 }
 
-.link-back {
-	background-color: white;
-}
->>>>>>> userLogin
+/*.active a {
+    background-color: darkslategray;
+    opacity: 0.8;
+}*/
+
 .nav.navbar-nav li a:hover {
     color: #483d8b;
 
@@ -180,31 +177,34 @@ span.round-tabs {
 }
 
 span.round-tabs.one {
-    color: #483d8b;
-    border: 2px solid #483d8b;
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
 }
 
 li.active span.round-tabs.one {
-    background: #fff !important;
-    border: 2px solid #00cccc;
-    color: #00cccc;
+    background: darkslateblue !important;
+    border: 2px darkslateblue;
+    color: white;
 }
 
 span.round-tabs.two {
-    color: #483d8b;
-    border: 2px solid #483d8b;
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
 }
 
 li.active span.round-tabs.two {
-    background: #fff !important;
-    border: 2px solid #00cccc;
-    color: #00cccc;
+    background: darkslateblue !important;
+    border: 2px darkslateblue;
+    color: white;
 
 }
 
 span.round-tabs.three {
-    color: #483d8b;
-    border: 2px solid #483d8b;
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
 }
 
 li.active span.round-tabs.three {
@@ -214,25 +214,27 @@ li.active span.round-tabs.three {
 }
 
 span.round-tabs.four {
-    color: #483d8b;
-    border: 2px solid #483d8b;
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
 }
 
 li.active span.round-tabs.four {
-    background: #fff !important;
-    border: 2px solid #00cccc;
-    color: #00cccc;
+    background: darkslateblue !important;
+    border: 2px darkslateblue;
+    color: white;
 }
 
 span.round-tabs.five {
-    color: #483d8b;
-    border: 2px solid #483d8b;
+    background: #00cccc !important;
+    border: 2px #00cccc;
+    color: white;
 }
 
 li.active span.round-tabs.five {
-    background: #fff !important;
-    border: 2px solid #00cccc;
-    color: #00cccc;
+    background: darkslateblue !important;
+    border: 2px darkslateblue;
+    color: white;
 }
 
 .nav-tabs > li.active > a span.round-tabs {
@@ -510,8 +512,8 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
     }
 
     /*
-	Label the data
-	*/
+    Label the data
+    */
     #no-more-tables td:before {
         content: attr(data-title);
     }
